@@ -1,40 +1,39 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+ <img width=200px height=200px src="https://cdn.freelogovectors.net/wp-content/uploads/2018/06/kaggle-logo.png" alt="NYC-311"></a>
 </p>
 
-<h3 align="center">Project Title</h3>
+<h3 align="center">NYC 311 (EDA)</h3>
 
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
+[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/vigneshmanikandan97/nyc-311/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/vigneshmanikandan97/nyc-311/pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
 
 ---
 
-<p align="center"> Few lines describing your project.
-    <br> 
+<p align="center">
+<strong>Objective :</strong><br>
+Perform a service request data analysis of New York City 311 calls. You will focus on the data wrangling techniques to understand the pattern in the data and also visualize the major complaint types.<br> 
+<strong>Domain:</strong> Customer Service
 </p>
 
 ## 📝 Table of Contents
 
 - [About](#about)
 - [Getting Started](#getting_started)
-- [Deployment](#deployment)
 - [Usage](#usage)
 - [Built Using](#built_using)
-- [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
-- [Authors](#authors)
-- [Acknowledgments](#acknowledgement)
 
 ## 🧐 About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+#### Background of Problem Statement :
+
+NYC 311's mission is to provide the public with quick and easy access to all New York City government services and information while offering the best customer service. Each day, NYC311 receives thousands of requests related to several hundred types of non-emergency services, including noise complaints, plumbing issues, and illegally parked cars. These requests are received by NYC311 and forwarded to the relevant agencies such as the police, buildings, or transportation. The agency responds to the request, addresses it, and then closes it.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
@@ -42,73 +41,34 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them.
+#### Make sure you have these tools installed
 
-```
-Give examples
-```
+- Python
+- Pandas
+- Seaborn
+- Anaconda (optional)
+
+#### Download the dataset from here
+
+[Kaggle NYC 311 dataset](https://www.kaggle.com/pablomonleon/311-service-requests-nyc)
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running.
+It is always better to have a virtual environment so that you can go ham on your changes and still not end up breaking your system. All the necessary packages required to run this project is provided in the [requirements](/requirements.txt) file.
 
-Say what the step will be
-
-```
-Give the example
+```python
+pip install -r requirements.txt
 ```
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo.
-
-## 🔧 Running the tests <a name = "tests"></a>
-
-Explain how to run the automated tests for this system.
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+If this doesn't work, you need to install pip: <https://pip.pypa.io/en/stable/installing/>.
+The "r" flag is used to install dependencies recursively.
 
 ## 🎈 Usage <a name="usage"></a>
 
-Add notes about how to use the system.
-
-## 🚀 Deployment <a name = "deployment"></a>
-
-Add additional notes about how to deploy this on a live system.
+This is just a analysis of customer service of NYC's 311 dataset from Kaggle.
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
-
-## ✍️ Authors <a name = "authors"></a>
-
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
-
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
-
-## 🎉 Acknowledgements <a name = "acknowledgement"></a>
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
+- [Python](https://www.python.org) - Programming Language
+- [Pandas](https://pandas.pydata.org/) - Data Analysis library
+- [Seaborn](https://seaborn.pydata.org/) - Data visualization library
