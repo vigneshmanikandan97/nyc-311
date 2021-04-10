@@ -7,10 +7,13 @@
 
 <div align="center">
 
-[![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/vigneshmanikandan97/nyc-311/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/vigneshmanikandan97/nyc-311/pulls)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
+[![GitHub Forks](https://img.shields.io/github/forks/vigneshmanikandan97/nyc-311)]
+[![GitHub Issues](https://img.shields.io/github/issues/vigneshmanikandan97/nyc-311)]
+[![GitHub Stars](https://img.shields.io/github/stars/vigneshmanikandan97/nyc-311)]
+[![Lisence](https://img.shields.io/github/license/vigneshmanikandan97/nyc-311)]
+<br>
+[![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fwww.twitter.com%2Fv_gn_sh)]
+
 
 </div>
 
