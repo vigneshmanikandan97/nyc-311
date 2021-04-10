@@ -20,9 +20,9 @@
 ---
 
 <p align="center">
-<strong>Objective :</strong><br>
+<strong><i>Objective</i></strong><br>
 Perform a service request data analysis of New York City 311 calls. You will focus on the data wrangling techniques to understand the pattern in the data and also visualize the major complaint types.<br> 
-<strong>Domain:</strong> Customer Service
+<strong><i>Domain</i></strong><br>Customer Service
 </p>
 
 ## 📝 Table of Contents
