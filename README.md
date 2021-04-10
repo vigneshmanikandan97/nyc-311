@@ -7,12 +7,12 @@
 
 <div align="center">
 
-[![GitHub Forks](https://img.shields.io/github/forks/vigneshmanikandan97/nyc-311)]
-[![GitHub Issues](https://img.shields.io/github/issues/vigneshmanikandan97/nyc-311)]
-[![GitHub Stars](https://img.shields.io/github/stars/vigneshmanikandan97/nyc-311)]
-[![Lisence](https://img.shields.io/github/license/vigneshmanikandan97/nyc-311)]
+[![GitHub Forks](https://img.shields.io/github/forks/vigneshmanikandan97/nyc-311)](https://github.com/vigneshmanikandan97/nyc-311/network/members)
+[![GitHub Issues](https://img.shields.io/github/issues/vigneshmanikandan97/nyc-311)](https://github.com/vigneshmanikandan97/nyc-311/issues)
+[![GitHub Stars](https://img.shields.io/github/stars/vigneshmanikandan97/nyc-311)](https://github.com/vigneshmanikandan97/nyc-311/stargazers)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
-[![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fwww.twitter.com%2Fv_gn_sh)]
+[![Tweeting](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fwww.twitter.com%2Fv_gn_sh)](https://www.twitter.com/v_gn_sh)
 
 
 </div>
