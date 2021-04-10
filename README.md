@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://cdn.freelogovectors.net/wp-content/uploads/2018/06/kaggle-logo.png" alt="NYC-311"></a>
+ <img src="./kaggle-logo.png" alt="NYC-311"></a>
 </p>
 
 <h3 align="center">NYC 311 (EDA)</h3>
