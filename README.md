@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="" rel="noopener">
- <img src="./kaggle-logo.png" alt="NYC-311"></a>
+  <a href="https://www.kaggle.com/" rel="noopener">
+ <img width="400px" height="150px" src="./kaggle-logo.png" alt="NYC-311"></a>
 </p>
 
 <h3 align="center">NYC 311 (EDA)</h3>
