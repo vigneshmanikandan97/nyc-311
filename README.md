@@ -7,12 +7,12 @@
 
 <div align="center">
 
-![GitHub Forks](https://img.shields.io/github/forks/vigneshmanikandan97/nyc-311)
-![GitHub Issues](https://img.shields.io/github/issues/vigneshmanikandan97/nyc-311)
-![GitHub Stars](https://img.shields.io/github/stars/vigneshmanikandan97/nyc-311)
-![Lisence](https://img.shields.io/github/license/vigneshmanikandan97/nyc-311)
+[![GitHub Forks](https://img.shields.io/github/forks/vigneshmanikandan97/nyc-311)]
+[![GitHub Issues](https://img.shields.io/github/issues/vigneshmanikandan97/nyc-311)]
+[![GitHub Stars](https://img.shields.io/github/stars/vigneshmanikandan97/nyc-311)]
+[![Lisence](https://img.shields.io/github/license/vigneshmanikandan97/nyc-311)]
 
-![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fwww.twitter.com%2Fv_gn_sh)
+[![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fwww.twitter.com%2Fv_gn_sh)]
 
 
 </div>
