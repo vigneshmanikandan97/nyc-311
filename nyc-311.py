@@ -301,7 +301,7 @@ import datetime
 nyc_df['YYYY-MM'] = nyc_df['Created Date'].apply(lambda x: datetime.datetime.strftime(x, '%Y-%m'))
 
 #Incidents on a monthly basis
-monthly_incidents =  nyc_df.groupby('YYYY-MM').size().plot(figsize=(12,5), title='Incidents on a monthly basis');
+monthly_incidents =  nyc_df.groupby('YYYY-MM').size().plot(figsize=(12,5), title='Incidents on a monthly basis')
 
 
 # * January and Februray have the least number of complaints (Holidays or Winter ?)
@@ -312,7 +312,7 @@ monthly_incidents =  nyc_df.groupby('YYYY-MM').size().plot(figsize=(12,5), title
 
 # Complaints per Borough through the year
 nyc_df.groupby(['YYYY-MM','Borough']).size().unstack().plot(figsize=(15,6))
-plt.legend(loc='center left', bbox_to_anchor=(1.0, 0.5));
+plt.legend(loc='center left', bbox_to_anchor=(1.0, 0.5))
 
 
 # * Brooklyn raise highest number of complaints in May and September and least comlaints in February.
@@ -322,7 +322,7 @@ plt.legend(loc='center left', bbox_to_anchor=(1.0, 0.5));
 # In[182]:
 
 
-nyc_df.groupby(['YYYY-MM','Borough'])['Request_Closing_Hours'].mean().unstack().plot(figsize=(15,7), title='Processing time per Borough on a monthly basis');
+nyc_df.groupby(['YYYY-MM','Borough'])['Request_Closing_Hours'].mean().unstack().plot(figsize=(15,7), title='Processing time per Borough on a monthly basis')
 
 
 # * Manhattan has the best average closing time throughout the year.
@@ -334,10 +334,10 @@ nyc_df.groupby(['YYYY-MM','Borough'])['Request_Closing_Hours'].mean().unstack().
 
 fig = plt.figure(figsize=(21,6))
 plt.subplot(1, 2, 1)
-nyc_df.groupby('Borough')['Unique Key'].size().plot(kind='barh',title='Complaints per Borough');
+nyc_df.groupby('Borough')['Unique Key'].size().plot(kind='barh',title='Complaints per Borough')
 
 plt.subplot(1, 2, 2)
-nyc_df.groupby('Borough')['Request_Closing_Hours'].mean().plot(kind='barh',title='Mean Closing Time per Borough (Hours)');
+nyc_df.groupby('Borough')['Request_Closing_Hours'].mean().plot(kind='barh',title='Mean Closing Time per Borough (Hours)')
 plt.show()
 
 
