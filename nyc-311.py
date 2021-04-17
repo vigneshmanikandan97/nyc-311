@@ -391,7 +391,7 @@ complaints['Noise - Street/Sidewalk'].hist(bins=100)
 # In[192]:
 
 
-data['Noise - Street/Sidewalk'].plot(kind = 'box')
+complaints['Noise - Street/Sidewalk'].plot(kind = 'box')
 
 
 # In[201]:
